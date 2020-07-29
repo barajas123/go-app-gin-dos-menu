@@ -9,5 +9,5 @@ func main() {
 
 	r.Static("/menu", "./static/")
 
-	r.Run(":8080")
+	r.Run(":80")
 }
